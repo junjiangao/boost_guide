@@ -18,7 +18,7 @@ void case1()
     cout << endl;
 
     set<string> s;
-    s += "cpp", "java", "c#", "python";
+    s += "c", "cpp", "lua", "swift";
 
     for(auto& x : s)
         cout << x << ",";
@@ -39,7 +39,7 @@ void case2()
     push_back(v)(1)(2)(3)(4)(5);
 
     list<string> l;
-    push_front(l)("cpp")("java")("c#")("python");
+    push_front(l)("c")("cpp")("lua")("swift");
 
     forward_list<string> fl;
     push_front(l)("matrix")("reload");
@@ -65,7 +65,7 @@ void case3()
     cout << endl;
 
     deque<string> d;
-    push_front(d)() = "cpp","java","c#","python";
+    push_front(d)() = "breath","of","the","wild";
     assert(d.size()==5);
 
     for(auto& x : d)
